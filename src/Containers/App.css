@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+
+
+.github-logo {
+  border-radius: 25px;
+}
+
+.background-footer {
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.shadow-img {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.skills-bg {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    52deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(66, 89, 78, 1) 13%,
+    rgba(144, 238, 255, 1) 36%,
+    rgba(7, 51, 66, 1) 68%,
+    rgb(125, 160, 177) 100%
+  );
+}
+.project {
+  background-color: white;
+  color: #282c34;
+  padding-top: 4rem;
+}
+
+.live-btn {
+  background-color: rgba(3, 143, 210, 1);
+}
+
+.button-ps {
+  min-width: 50%;
+}
+
+.after {
+  width: 24px;
+  border-bottom: 4px solid #282c34;
+  opacity: 0.6;
+}
+
+.under-lining {
+  content: "";
+  display: block;
+  /* margin: 0 auto; */
+  width: 24px;
+  border-bottom: 4px solid rgba(66, 89, 78, 1);
+  opacity: 0.6;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
