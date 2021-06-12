@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "../Images/image.png";
-import ScrollAnimation from "react-animate-on-scroll";
-import logo512 from "../Images/logo512.png";
-import nodejslogo from "../Images/nodejslogo.png";
 import postgres from "../Images/postgres.png";
-import githublogo from "../Images/github-mark.png";
 
 const Skills = () => {
   return (
@@ -14,56 +10,98 @@ const Skills = () => {
           <div className="fn fl-ns w-50-ns pr4-ns">
             <div className="f5 ttu tracked white">Luigi Campagnola</div>
             <div>
-              <ScrollAnimation animateIn="fadeIn">
-                <img
-                  alt="myPic"
-                  height="550"
-                  className="shadow-img"
-                  src={Image}
-                />
-              </ScrollAnimation>
+              <img
+                alt="myPic"
+                height="550"
+                className="shadow-img"
+                src={Image}
+              />
             </div>
           </div>
           <div className="tc mt0 lh-title fl-ns w-50-ns f2">
-            <div className="title-skills lh-title f2 white">My Skills</div>
+            <div className="title-skills lh-title f2 white">MY TECH STACK</div>
           </div>
           <div className="fn fl-ns w-50-ns mt5 polygon">
-            <div className="scrollers">
-              <ScrollAnimation animateIn="fadeIn">
-                <img
-                  alt="logos"
-                  src={process.env.PUBLIC_URL + "/javascript.png"}
-                  height="150"
-                />
-                <img
-                  alt="logos"
-                  src={githublogo}
-                  height="90"
-                  className="mb3 ml4 github-logo"
-                />
-                <img
-                  alt="logos"
-                  src={process.env.PUBLIC_URL + "/boostrap.png"}
-                  height="90"
-                  className="mb3"
-                />
-              </ScrollAnimation>
-              <div className="mt4">
-                <ScrollAnimation animateIn="fadeIn">
-                  <img alt="logos" src={logo512} height="100" className="mb3" />
-                  <img
-                    alt="logos"
-                    src={nodejslogo}
-                    height="100"
-                    className="mb3 ml3"
-                  />
-                  <img
-                    alt="logos"
-                    src={postgres}
-                    height="130"
-                    className="mb3 ml2"
-                  />
-                </ScrollAnimation>
+            <div className="">
+              <div className="scrollers">
+                <div className="flex flex-wrap">
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/html.svg"}
+                      height="150"
+                      className='grow'
+                      title='HTML'
+                    />
+                  </div>
+                  <div className="stack ">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/css.svg"}
+                      height="150"
+                      className="grow"
+                      title='CSS'
+                    />
+                  </div>
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/js.svg"}
+                      height=""
+                      className="grow mw4 pa1 mt2"
+                      title='Javascript'
+                    />
+                  </div>
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/react.svg"}
+                      height="100"
+                      className="grow mt4"
+                      title='ReactJS'
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-wrap">
+                  <div className="mt4">
+                    <div className="stack">
+                      <img
+                        alt="logos"
+                        src={process.env.PUBLIC_URL + "/github.svg"}
+                        height="150"
+                        className='grow'
+                        title='GitHub'
+                      />
+                    </div>
+                  </div>
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/nodejs.svg"}
+                      height=""
+                      className="mt4 grow"
+                      title='NodeJS'
+                    />
+                  </div>
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={postgres}
+                      height="130"
+                      className="mt4 grow"
+                      title='PostgreSQL'
+                    />
+                  </div>
+                  <div className="stack">
+                    <img
+                      alt="logos"
+                      src={process.env.PUBLIC_URL + "/knex.svg"}
+                      height="130"
+                      className="mt4 grow"
+                      title='KnexJS'
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

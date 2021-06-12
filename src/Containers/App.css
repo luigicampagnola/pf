@@ -2,10 +2,34 @@
   text-align: center;
 }
 
+.bg-stack {
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+  border-radius: 12px;
+}
+
+.stack {
+  border-radius: 12px;
+  border-color: white;
+  background-color: transparent;
+
+  min-width: 20%;
+  margin-left: 15px;
+}
+
+.scrollers {
+  padding-top: 12px;
+}
 
 
 .github-logo {
-  border-radius: 25px;
+  max-width: 30%;
+  min-width: 20%;
+
 }
 
 .background-footer {
