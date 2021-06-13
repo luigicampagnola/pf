@@ -1,6 +1,5 @@
 import React from "react";
 import { Scrollchor } from "@seinopsys-forks/react-scrollchor";
-import logo192 from "../Images/logo192.png";
 
 const HeaderComponent = () => {
   return (
@@ -20,7 +19,7 @@ const HeaderComponent = () => {
                 href="/"
                 className="dib w3 h3 pa1 ba b--white-90 grow-large border-box"
               >
-                <img src={logo192} className="pointer" alt="Site Name"></img>
+                <img src={process.env.PUBLIC_URL + "/logo2.png"} className="pointer" alt="Site Name"></img>
               </Scrollchor>
             </div>
             <div className="dtc v-mid tr pa3">
@@ -46,10 +45,10 @@ const HeaderComponent = () => {
             </div>
           </nav>
           <div className="tc-l mt4 mt5-m mt6-l ph3">
-            <div className="f2 f1-l fw2 white-90 mb0 lh-title">
+            <div className="f2 f1-l fw2  mb0 lh-title">
               Luigi Campagnola
             </div>
-            <div className="fw1 f3 white-80 mt3 mb4">
+            <div className="fw1 f3 mt3 mb4">
               Full-Stack Web Developer
             </div>
             <a
@@ -60,7 +59,7 @@ const HeaderComponent = () => {
             >
               Call to Action
             </a>
-            <span className="dib v-mid ph3 white-70 mb3">or</span>
+            <span className="dib v-mid ph3 mb3">or</span>
             <a
               className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3"
               href="LuigiCampagnolaCV.pdf"
