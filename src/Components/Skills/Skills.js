@@ -109,7 +109,7 @@ const Skills = () => {
                     <div className="stack">
                       <img
                         alt="logos"
-                        src={process.env.PUBLIC_URL + "postgresql.svg"}
+                        src={process.env.PUBLIC_URL + "/postgresql.svg"}
                         height="130"
                         className="mt4 grow"
                         title="PostgreSQL"
