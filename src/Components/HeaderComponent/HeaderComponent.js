@@ -62,7 +62,7 @@ const HeaderComponent = () => {
             <span className="dib v-mid ph3 mb3">or</span>
             <a
               className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3"
-              href="LuigiCampagnolaCV.pdf"
+              href={process.env.PUBLIC_URL + "/luigiCV.pdf"}
               download
             >
               View Resume

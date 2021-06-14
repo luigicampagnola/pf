@@ -23,7 +23,7 @@ const Skills = () => {
               Hello, I  am Luigi Campagnola. I'm a self-taught software developer
               who codes everyday. I have been coding since 2019 and started my career
               by making small projects. I have been using Javascript, React for 
-              front-end engineering and Node.js, Express.js and PostgreSQL for backend engineering.
+              front-end engineering and Node.js, Express.js and PostgreSQL for back-end engineering.
               I recently moved to Italy and now I'm looking for a job 
               that challenges me to work on really hard things that matter and can change
               the world. I want to work with people that are way smarter than me with
