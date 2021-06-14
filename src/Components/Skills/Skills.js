@@ -107,7 +107,7 @@ const Skills = () => {
                     <div className="stack">
                       <img
                         alt="logos"
-                        src={process.env.PUBLIC_URL + "/postgresql.svg"} //fixed this logo
+                        src={process.env.PUBLIC_URL + "/postgresql.svg"}
                         height="130"
                         className="mt4 grow"
                         title="PostgreSQL"
