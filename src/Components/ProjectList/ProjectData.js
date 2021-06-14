@@ -1,7 +1,7 @@
 export const ProjectData = [
   {
     id: 0,
-    name: "Guess My Number!",
+    name: "Guess My Number",
     description:
       "Guess My Number lets you add a number from 1 to 20 and check if it's the hidden number the game randomizes for you. Your score starts at 20 but starts to decrease once you start failing to guess the hidden number. It also comes with a high score system so that you can check what's your highest score on your latest session.",
     link: "https://luigicampagnola.github.io/project-3/",
