@@ -2,7 +2,7 @@ import React from "react";
 import Tilty from "react-tilty";
 import "./Project.css";
 
-const ProjectComponent = ({ name, id, description, link }) => {
+const ProjectComponent = ({ name, id, description, link, ghLink }) => {
   return (
     <div id="projects">
       <div className="f5 f3-m lh-copy">
@@ -25,7 +25,7 @@ const ProjectComponent = ({ name, id, description, link }) => {
                 <a
                   target="_blank"
                   className=" f8 link dim br2 ph3 pv2 mb2 dib white bg-dark-gray"
-                  href={`https://github.com/luigicampagnola/project-${id}`}
+                  href={ghLink}
                   rel="noreferrer"
                 >
                   View Source Code

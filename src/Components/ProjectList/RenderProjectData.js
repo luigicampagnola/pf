@@ -2,7 +2,7 @@ import React from "react";
 import ProjectComponent from "./ProjectComponent";
 
 const RenderProject = ({ ProjectData }) => {
-  const projectArray = ProjectData.map((element, i) => {
+  const projectArray = ProjectData.map((element, i = 3) => {
     return (
       <ProjectComponent
         key={i}
@@ -10,6 +10,7 @@ const RenderProject = ({ ProjectData }) => {
         name={ProjectData[i].name}
         description={ProjectData[i].description}
         link={ProjectData[i].link}
+        ghLink={ProjectData[i].ghLink}
       />
     );
   });
