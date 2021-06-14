@@ -7,7 +7,7 @@ const Skills = () => {
         <div className="cf ph3 ph5-ns pv5">
           <div className="fn fl-ns w-50-ns pr4-ns">
             <div className="f5 ttu tracked ">GIGI - ReactDev1899</div>
-            <div className=''>
+            <div className="">
               <img
                 alt="myPic"
                 height="550"
@@ -20,15 +20,15 @@ const Skills = () => {
           <div className="tc mt0 lh-title fl-ns w-50-ns f2">
             <div className="title-skills lh-title f2  mt2">ABOUT ME</div>
             <div className=" f3 mt5">
-              Hello, I  am Luigi Campagnola. I'm a self-taught software developer
-              who codes everyday. I have been coding since 2019 and started my career
-              by making small projects. I have been using Javascript, React for 
-              front-end engineering and Node.js, Express.js and PostgreSQL for back-end engineering.
-              I recently moved to Italy and now I'm looking for a job 
-              that challenges me to work on really hard things that matter and can change
-              the world. I want to work with people that are way smarter than me with
-              excellent communication skills and learn from them.
-
+              Hello, I am Luigi Campagnola. I'm a self-taught software developer
+              who codes everyday. I have been coding since 2019 and started my
+              career by making small projects. I have been using Javascript,
+              React for front-end engineering and Node.js, Express.js and
+              PostgreSQL for back-end engineering. I recently moved to Italy and
+              now I'm looking for a job that challenges me to work on really
+              hard things that matter and can change the world. I want to work
+              with people that are way smarter than me with excellent
+              communication skills and learn from them.
             </div>
           </div>
           <div className="fn fl-ns w-50-ns mt5 polygon">
@@ -40,9 +40,7 @@ const Skills = () => {
         <div className="">
           <div className="cf ph3 ph5-ns pv5 ">
             <div className="">
-              <div className="title-skills lh-title f2 ">
-                MY TECH STACK
-              </div>
+              <div className="title-skills lh-title f2 ">MY TECH STACK</div>
             </div>
             <div className="mt5 box">
               <div className="">
@@ -109,7 +107,7 @@ const Skills = () => {
                     <div className="stack">
                       <img
                         alt="logos"
-                        src={process.env.PUBLIC_URL + "/postgresql.svg"}
+                        src={process.env.PUBLIC_URL + "/postgresql.svg"} //fixed this logo
                         height="130"
                         className="mt4 grow"
                         title="PostgreSQL"
