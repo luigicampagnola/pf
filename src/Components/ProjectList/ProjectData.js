@@ -43,7 +43,7 @@ export const ProjectData = [
     id: 5,
     name: "Aumes",
     description:
-      "I created CheckFacer using HTML, CSS, React, Node.js, Express.js, PostgreSQL and deployed using Heroku. It's a full-stack web-app where you can sign in and register users to save transactions. I made this web-app to control and monitor movements for a business abroad.",
+      "I created Aumes using HTML, CSS, React, Node.js, Express.js, PostgreSQL and deployed using Heroku. It's a full-stack web-app where you can sign in and register users to save transactions. I made this web-app to control and monitor movements for a business abroad.",
     link: "https://aumes.herokuapp.com/",
     ghLink: "https://github.com/luigicampagnola/project-7"
   },
