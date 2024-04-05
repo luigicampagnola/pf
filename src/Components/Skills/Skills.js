@@ -1,6 +1,21 @@
 import React from "react";
 
 const Skills = () => {
+  const icons = [
+    { name: "html", title: "HTML", height: "150" },
+    { name: "css", title: "CSS", height: "150" },
+    { name: "sass", title: "SASS", height: "150" },
+    { name: "js", title: "Javascript", height: "150" },
+    { name: "react", title: "ReactJS", height: "100" },
+    { name: "github", title: "GitHub", height: "150" },
+    { name: "nodejs", title: "NodeJS", height: "150" },
+    { name: "postgresql", title: "PostgreSQL", height: "130" },
+    { name: "knex", title: "KnexJS", height: "130" },
+    { name: "strapi", title: "Strapi", height: "130" },
+    { name: "nextjs", title: "NextJS", height: "130" },
+    { name: "react-native", title: "React Native", height: "130" },
+  ];
+
   return (
     <div className="skills-bg " id="about">
       <div className="cf dt-1 w-100 bt b--black-10 pv4 bg-stack">
@@ -42,215 +57,20 @@ const Skills = () => {
           <div className="">
             <div className="title-skills lh-title f2 ">MY TECH STACK</div>
           </div>
-          <div className="cf ph3 ph5-ns pv5 tech-container">
-            <div className="html-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/html.svg"}
-                height="150"
-                className="grow"
-                title="HTML"
-              />
-            </div>
-            <div className="css-icon ">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/css.svg"}
-                height="150"
-                className="grow"
-                title="CSS"
-              />
-            </div>
-            <div className="sass-icon ">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/sass.svg"}
-                height="150"
-                className="grow"
-                title="CSS"
-              />
-            </div>
-            <div className="js-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/js.svg"}
-                height=""
-                className="grow mw4 pa1 mt2"
-                title="Javascript"
-              />
-            </div>
-            <div className="react-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/react.svg"}
-                height="100"
-                className="grow "
-                title="ReactJS"
-              />
-            </div>
-            <div className="github-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/github.svg"}
-                height="150"
-                className="grow"
-                title="GitHub"
-              />
-            </div>
-            <div className="node-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/nodejs.svg"}
-                height="150"
-                className=" grow"
-                title="NodeJS"
-              />
-            </div>
-            <div className="postgres-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/postgresql.svg"}
-                height="130"
-                className=" grow"
-                title="PostgreSQL"
-              />
-            </div>
-            <div className="knex-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/knex.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="strapi-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/strapi.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="nextjs-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/nextjs.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="native-icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/react-native.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            {/*           
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/storybook.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div> */}
-            {/*             <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/tailwind.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/typescript.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/redis.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/jira.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/adobe-xd.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/photoshop.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/illustrator.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/figma.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/androidstudio.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div>
-            <div className="icon">
-              <img
-                alt="logos"
-                src={process.env.PUBLIC_URL + "/storybook.svg"}
-                height="130"
-                className=" grow"
-                title="KnexJS"
-              />
-            </div> */}
+          <div className="cf ph3 ph5-ns pv5">
+            <div className="tech-container">
+              {icons.map((icon) => (
+                <div className={`${icon.name}-icon`} key={icon.name}>
+                  <img
+                    alt="logos"
+                    src={process.env.PUBLIC_URL + `/${icon.name}.svg`}
+                    height={icon.height}
+                    className="grow"
+                    title={icon.title}
+                  />
+                </div>
+              ))}
+            </div>{" "}
           </div>
         </div>
       </div>

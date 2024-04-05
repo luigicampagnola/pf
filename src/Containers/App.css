@@ -49,10 +49,10 @@
   justify-content: center;
   align-items: center;
 }
-.node-icon {
+.nodejs-icon {
   grid-column: 1 / span 2;
 }
-.postgres-icon {
+.postgresql-icon {
   grid-column: 3 / span 2;
 }
 .knex-icon {
@@ -64,7 +64,7 @@
 .nextjs-icon {
   grid-column: 9 / span 2;
 }
-.native-icon {
+.react-native-icon {
   grid-column: 11 / span 2;
 }
 .icon {
