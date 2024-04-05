@@ -162,6 +162,8 @@
   display: grid;
   grid-template-columns: repeat(12, 2fr);
   grid-row-gap: 2rem;
+  max-width: 85rem;
+  margin: 0 auto;
 }
 .App-header {
   background-color: #282c34;
