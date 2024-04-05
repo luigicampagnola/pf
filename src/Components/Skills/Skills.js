@@ -12,7 +12,7 @@ const Skills = () => {
                 alt="myPic"
                 height="550"
                 className="shadow-img"
-                src={process.env.PUBLIC_URL + "/image.png"}
+                src={process.env.PUBLIC_URL + "/me.png"}
               />
             </div>
           </div>
@@ -20,15 +20,7 @@ const Skills = () => {
           <div className="tc mt0 lh-title fl-ns w-50-ns f2">
             <div className="title-skills lh-title f2  mt2">ABOUT ME</div>
             <div className=" f3 mt5">
-              Hello, I am Luigi Campagnola. I'm a self-taught software developer
-              who codes everyday. I have been coding since 2019 and started my
-              career by making small projects. I have been using Javascript,
-              React for front-end engineering and Node.js, Express.js and
-              PostgreSQL for back-end engineering. I recently moved to Italy and
-              now I'm looking for a job that challenges me to work on really
-              hard things that matter and can change the world. I want to work
-              with people that are way smarter than me with excellent
-              communication skills and learn from them.
+            Experienced Software Engineer with 5 years in the field, specializing in front-end development with expertise in both modern and legacy technologies. Proficient in diverse programming languages and tools, with significant experience in continuous integration, Agile methodologies, and a proven track record in both back-end development and mobile app creation. Skilled in working under pressure and adept at meeting tight deadlines.
             </div>
           </div>
           <div className="fn fl-ns w-50-ns mt5 polygon">
@@ -44,9 +36,9 @@ const Skills = () => {
             </div>
             <div className="mt5 box">
               <div className="">
-                <div className="">
+                <div className="skill-stack">
                   <div className="flex flex-wrap">
-                    <div className="stack">
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/html.svg"}
@@ -55,7 +47,7 @@ const Skills = () => {
                         title="HTML"
                       />
                     </div>
-                    <div className="stack ">
+                    <div className="icon ">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/css.svg"}
@@ -64,7 +56,16 @@ const Skills = () => {
                         title="CSS"
                       />
                     </div>
-                    <div className="stack">
+                    <div className="icon ">
+                      <img
+                        alt="logos"
+                        src={process.env.PUBLIC_URL + "/sass.svg"}
+                        height="150"
+                        className="grow"
+                        title="CSS"
+                      />
+                    </div>
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/js.svg"}
@@ -73,7 +74,7 @@ const Skills = () => {
                         title="Javascript"
                       />
                     </div>
-                    <div className="stack">
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/react.svg"}
@@ -85,7 +86,7 @@ const Skills = () => {
                   </div>
                   <div className="flex flex-wrap">
                     <div className="mt4">
-                      <div className="stack">
+                      <div className="icon">
                         <img
                           alt="logos"
                           src={process.env.PUBLIC_URL + "/github.svg"}
@@ -95,7 +96,7 @@ const Skills = () => {
                         />
                       </div>
                     </div>
-                    <div className="stack">
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/nodejs.svg"}
@@ -104,7 +105,7 @@ const Skills = () => {
                         title="NodeJS"
                       />
                     </div>
-                    <div className="stack">
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/postgresql.svg"}
@@ -113,10 +114,19 @@ const Skills = () => {
                         title="PostgreSQL"
                       />
                     </div>
-                    <div className="stack">
+                    <div className="icon">
                       <img
                         alt="logos"
                         src={process.env.PUBLIC_URL + "/knex.svg"}
+                        height="130"
+                        className="mt4 grow"
+                        title="KnexJS"
+                      />
+                    </div>
+                    <div className="icon">
+                      <img
+                        alt="logos"
+                        src={process.env.PUBLIC_URL + "/strapi.svg"}
                         height="130"
                         className="mt4 grow"
                         title="KnexJS"
