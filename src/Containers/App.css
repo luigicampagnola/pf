@@ -11,11 +11,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 84%;
-/*   // background-color: white;
- */}
+  /*   // background-color: white;
+ */
+}
 
 .bg-stack {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   background-size: 16px 16px;
 }
 
@@ -26,12 +27,51 @@
   background-color: green;
 }
 
+.html-icon {
+  grid-column: 1 / span 2;
+}
+
+.css-icon {
+  grid-column: 3 / span 2;
+}
+.sass-icon {
+  grid-column: 5 / span 2;
+}
+.js-icon {
+  grid-column: 7 / span 2;
+}
+.github-icon {
+  grid-column: 11 / span 2;
+}
+.react-icon {
+  grid-column: 9 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.node-icon {
+  grid-column: 1 / span 2;
+}
+.postgres-icon {
+  grid-column: 3 / span 2;
+}
+.knex-icon {
+  grid-column: 5 / span 2;
+}
+.strapi-icon {
+  grid-column: 7 / span 2;
+}
+.nextjs-icon {
+  grid-column: 9 / span 2;
+}
+.native-icon {
+  grid-column: 11 / span 2;
+}
 .icon {
   border-radius: 12px;
   border-color: white;
-  background-color: brown;
-  min-width: 15%;
-  margin-left: 15px;
+  /*   min-width: 15%;
+  margin-left: 15px; */
 }
 
 .scrollers {
@@ -64,7 +104,7 @@
 }
 
 .shadow-img {
-  border: 2px solid #BCB4B4;
+  border: 2px solid #bcb4b4;
 }
 
 .skills-bg {
@@ -108,10 +148,21 @@
 }
 
 .img-about {
-  border-color: #BCB4B4;
+  border-color: #bcb4b4;
 }
 
-
+.about-me-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.picture-container {
+  grid-column: 1 / span 1;
+}
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  grid-row-gap: 2rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
